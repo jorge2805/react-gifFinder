@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifGridItem Probando snapshot 1`] = `
+<div
+  className="card animate__animated animate__bounce"
+>
+  <img
+    alt="img.title"
+    src="img.images.downsized_medium.url"
+  />
+  <p>
+    img.title
+  </p>
+</div>
+`;
