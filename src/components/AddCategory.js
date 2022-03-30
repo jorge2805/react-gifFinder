@@ -13,6 +13,8 @@ export const AddCategory = ({setCategories}) => {
     const onSubmitForm = (e) =>{
         e.preventDefault();
         
+        console.log('Se ha llamado el form');
+
         if (inputValue.trim().length >= 2) {
             setCategories(categories => [inputValue, ...categories]);
             setinputValue("");
